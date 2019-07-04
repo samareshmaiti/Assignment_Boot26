@@ -22,6 +22,7 @@
       <link rel="stylesheet" href="style.css">
    </head>
    <body>
+     <header>
       <!--Starting of navigation bar-->
       <nav class="navbar navbar-inverse navbar-fixed-top">
          <div class="container-fluid">
@@ -78,7 +79,9 @@
             </div>
          </div>
       </nav>
+      </header>
       <!---Upto this navigation bar-->
+      <article>
       <div class="bs-example">
          <div class="jumbotron">
             <h1>
@@ -114,6 +117,7 @@
          </div>
       </div>
       <div>
+      </article>
          <!--making crousel---->
          <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
@@ -145,11 +149,14 @@
             </a>
          </div>
       </div>
+      <main>
       <!---Starting of grid-->
       <section id="grid" style="background-image:url('img/1.jpg')">
          <div class="container-fluid">
             <div class="row mt-5 no-gutters">
-               <img src="img/success_story.jpg"alt="success story" class="img-fluid">
+               <div class="col-sm-4 center-block">
+               <img src="img/success_story.jpg"alt="success story" class="img-responsive center-block">
+               </div>
                <div class="col-sm-8">
                   <h2 style="font-family: fantasy"><b>Our Success Story</b></h2>
                   <p class="container-fluid text-justify">
@@ -168,7 +175,9 @@
          </div>
          <div class="container-fluid">
             <div class="row mt-5">
-               <img src="img/our_mission.jpg"alt="mission" class="img-fluid">
+            <div class="col-sm-4">
+               <img src="img/our_mission.jpg"alt="mission" class="img-responsive center-block">
+            </div>
                <div class="col-sm-8">
                   <h2 style="font-family: fantasy"><b>Our Mission</b></h2>
                   <p class="text-justify">
@@ -188,8 +197,10 @@
          <!---Start of describing us into second grid area-->
          <div class="container-fluid">
             <div class="row no-gutter">
-               <div class="col-sm-6">
-                  <img src="img/only_us.jpg"alt="Only Us" class="img-fluid">
+               <div class="col-sm-6 " >
+                  
+                  <img src="img/only_us.jpg"alt="Only Us" class="img-responsive center-block">
+                  
                   <h2 style="font-family: fantasy"><b>Why only us?</b></h2>
                   <p class="text-justify">
                   
@@ -202,7 +213,7 @@
                   </p>
                </div>
                <div class="col-sm-6">
-                  <img src="img/diffirent.jpg"alt="Makes us diffirent" class="img-fluid">
+                  <img src="img/diffirent.jpg"alt="Makes us diffirent" class="img-responsive center-block">
                   <h2 style="font-family:fantasy"> <b>How different?</b></h2>
                   <p class="text-justify">
                   
@@ -219,7 +230,7 @@
                <div class="row no-gutters">
                   <div class="col-sm-4">
                      <!---Current market situation-->
-                     <img src="img/current_market.jpg" class="img-fluid"alt="Current_market">
+                     <img src="img/current_market.jpg" class="img-responsive center-block" alt="Current_market">
                      <h2 style="font-family:fantasy"><i><b>Current Market</b></i></h2>
                      <p class="text-justify"><i><b>The global information technology industry is on pace to reach $5 trillion in 2019,
                         according to the research consultancy IDC. The enormity of the industry is a function
@@ -229,7 +240,7 @@
                   </div>
                   <div class="col-sm-4">
                      <!---Our vision-->
-                     <img src="img/our_vission.jpg"alt="Our vision" class="img-fluid" >
+                     <img src="img/our_vission.jpg"alt="Our vision" class="img-responsive center-block" >
                      <h2 style="font-family: fantasy"><i><b>Our vision</b></i></h2>
                      <p class="text-justify"><i><b>Inspire the world with our innovative technologies, products and design that enrich people’s 
                         lives and contribute to social prosperity by creating a new future.
@@ -239,7 +250,7 @@
                   </div>
                   <div class="col-sm-4">
                      <!---Client engazement-->
-                     <img src="img/client_engazement.png"alt="client engazement" class="img-fluid" >
+                     <img src="img/client_engazement.png"alt="client engazement" class="img-responsive center-block" >
                      <h2 style="font-family: fantasy"><i><b>Client Engazement</b></i></h2>
                      <p class="text-justify"><i><b>We are here to help our customers kick ass. We do that by living our strategy and ruthlessly 
                         prioritizing our work to create simple elegant technology that delights our customers –
@@ -291,6 +302,7 @@
                </div>
             </div>
          </div>
+      </main>
       </section>
       <!-- Start Footer bottom Area -->
       <footer>
